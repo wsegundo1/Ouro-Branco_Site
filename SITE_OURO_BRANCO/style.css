@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+     'Helvetica Neue', sans-serif;
+}
+
+#header-bar{
+    background-color: #000;
+    color: #FFF;
+    padding: 10px ;
+    text-align: center;
+    font-size: 14px;
+}
+
+.logo, img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bola{
+    background-color: #0C3B53;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.bola .icon{
+    height: 20px;
+    margin: 10px 9px;
+}
+
+.bola .icon2{
+    height: 20px;
+    margin: 10px 10px;
+}
+
+.bola .icon3{
+    height: 18px;
+    margin: 11px 7px;
+}
+
+#center{
+    height: 150px;
+    margin: 0 100px 0 100px;
+}
+
+.redes{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#menu-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    background-color: #2689bb;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.menu-lista{
+    list-style: none;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+.menu-lista li{
+    margin: 10px 0;
+}
+
+
+@media screen and (min-width: 946px) {
+    .nav2{
+        display: none;
+    }
+
+    #menu-bar{
+        display: none;
+    }
+ 
+}
+
+@media screen and (max-width: 707px) {
+    .logos{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 946px) {
+    #header-bar{
+        display: none;
+    }
+
+    .nav2 img{
+        height: 60px;
+        margin: 0 auto;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #menu-bar.active{
+        display: flex;
+    }
+
+    #menu-bar{
+        display: none;
+    }
+
+}
+
+#home{
+    border-bottom: 3px solid #FFF;
+}
+
+.link{
+    transition: .2s;
+}
+
+.link:hover{
+    border-bottom: 3px solid #FFF;
+}
+
+.main-container a{
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.main-container{
+    background-color: #0C3B53;
+    color: #FFF;
+    text-align: center;
+}
+
+#banner img{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 20px #000;
+}
+
+.compra{
+    margin: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.compra img{
+    width: 100%;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video iframe{
+    width: 100%;
+    max-width: 679px;
+    margin: 0 20px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #0C3B53;
+    color: #FFF;
+}
+
+footer h1, h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer h1{
+    padding-top: 20px;
+}
+
+footer p{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: justify;
+    width: 90%;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.logo-footer img{
+    height: 100px;
+}
